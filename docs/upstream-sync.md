@@ -1,0 +1,159 @@
+# Upstream sync 2026-11-03
+
+Upstream `chenaizhang/KernelSU-Style-UI-Kit` moved from `df4f1f6c8fc106e8c1d950d96a1d2f2c08a03f82` to `7467e9781bb365a8dbbe3c5cfabde7271496d350`.
+
+## Applied automatically (54)
+
+- `A app/src/androidTest/java/com/example/kernelsustyleuikit/data/repository/SettingsDefaultsTest.kt`
+- `A app/src/androidTest/java/com/example/kernelsustyleuikit/permission/TemplateConfigurationTest.kt`
+- `A app/src/androidTest/java/com/example/kernelsustyleuikit/ui/component/markdown/GithubMarkdownTest.kt`
+- `A app/src/androidTest/java/com/example/kernelsustyleuikit/ui/screen/home/HomePermissionCardTest.kt`
+- `A app/src/androidTest/java/com/example/kernelsustyleuikit/ui/screen/home/HomeUpdateCardTest.kt`
+- `A app/src/androidTest/java/com/example/kernelsustyleuikit/ui/screen/permission/PermissionHeaderTest.kt`
+- `A app/src/androidTest/java/com/example/kernelsustyleuikit/ui/util/DeviceNameHelperTest.kt`
+- `M app/src/main/AndroidManifest.xml`
+- `M app/src/main/assets/webview/markdown.js`
+- `M app/src/main/assets/webview/template.html`
+- `M app/src/main/assets/webview/template_dark.html`
+- `A app/src/main/java/com/example/kernelsustyleuikit/ui/component/WarningLevel.kt`
+- `A app/src/main/java/com/example/kernelsustyleuikit/ui/component/material/ExpressiveScaffold.kt`
+- `A app/src/main/java/com/example/kernelsustyleuikit/ui/component/material/TopBarBackButton.kt`
+- `A app/src/main/java/com/example/kernelsustyleuikit/ui/util/DeviceNameHelper.kt`
+- `D app/src/main/res/drawable/ic_logo.xml`
+- `D app/src/main/res/mipmap-hdpi/ic_launcher.png`
+- `D app/src/main/res/mipmap-ldpi/ic_launcher.png`
+- `D app/src/main/res/mipmap-mdpi/ic_launcher.png`
+- `D app/src/main/res/mipmap-xhdpi/ic_launcher.png`
+- `D app/src/main/res/mipmap-xxhdpi/ic_launcher.png`
+- `D app/src/main/res/mipmap-xxxhdpi/ic_launcher.png`
+- `M app/src/main/res/values-zh-rHK/strings.xml`
+- `M app/src/main/res/values-zh-rTW/strings.xml`
+- `A app/src/test/java/com/example/kernelsustyleuikit/resources/PublishedTranslationsTest.kt`
+- `A app/src/test/java/com/example/kernelsustyleuikit/ui/navigation3/NavigatorTest.kt`
+- `A app/src/test/java/com/example/kernelsustyleuikit/ui/screen/home/HomeUiStateTest.kt`
+- `A app/src/test/java/com/example/kernelsustyleuikit/ui/util/DeviceNameHelperTest.kt`
+- `A app/src/test/java/com/example/kernelsustyleuikit/ui/viewmodel/SettingsViewModelTest.kt`
+- `M docs/GETTING_STARTED.md`
+- `M docs/GETTING_STARTED.zh-CN.md`
+- `M docs/README.md`
+- `M docs/README.zh-CN.md`
+- `A docs/assets/screenshots/en/material-home.webp`
+- `A docs/assets/screenshots/en/material-settings.webp`
+- `A docs/assets/screenshots/en/material-theme.webp`
+- `A docs/assets/screenshots/en/miuix-home.webp`
+- `A docs/assets/screenshots/en/miuix-settings.webp`
+- `A docs/assets/screenshots/en/miuix-theme.webp`
+- `D docs/assets/screenshots/material-home.webp`
+- `D docs/assets/screenshots/material-settings.webp`
+- `D docs/assets/screenshots/material-theme.webp`
+- `D docs/assets/screenshots/miuix-home.webp`
+- `D docs/assets/screenshots/miuix-settings.webp`
+- `D docs/assets/screenshots/miuix-theme.webp`
+- `A docs/assets/screenshots/zh-CN/material-home.webp`
+- `A docs/assets/screenshots/zh-CN/material-settings.webp`
+- `A docs/assets/screenshots/zh-CN/material-theme.webp`
+- `A docs/assets/screenshots/zh-CN/miuix-home.webp`
+- `A docs/assets/screenshots/zh-CN/miuix-settings.webp`
+- `A docs/assets/screenshots/zh-CN/miuix-theme.webp`
+- `M gradlew`
+- `M gradlew.bat`
+- `A translations/README.md`
+
+## Needs manual porting (93)
+
+These files changed upstream but this project has its own version, so
+they were left alone:
+
+- `M app/build.gradle.kts`
+- `M app/src/main/java/com/example/kernelsustyleuikit/TemplateApplication.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/data/repository/SettingsRepository.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/data/repository/SettingsRepositoryImpl.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/permission/PermissionManager.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/MainActivity.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/component/bottombar/BottomBar.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/component/bottombar/NavigationRailMaterial.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/component/bottombar/NavigationRailMiuix.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/component/dialog/DialogMaterial.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/component/markdown/GithubMarkdown.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/component/material/SearchBar.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/component/material/SegmentedList.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/component/material/SendLogBottomSheet.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/component/material/SettingsItem.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/component/miuix/DropdownItem.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/component/miuix/EditText.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/component/miuix/SuperSearchBar.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/component/miuix/WarningCard.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/component/miuix/effect/BgEffectBackground.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/component/miuix/effect/BgEffectModifier.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/navigation3/Navigator.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/navigation3/Routes.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/screen/about/AboutMaterial.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/screen/about/AboutMiuix.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/screen/colorpalette/ColorPaletteScreen.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/screen/colorpalette/ColorPaletteScreenMaterial.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/screen/colorpalette/ColorPaletteScreenMiuix.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/screen/colorpalette/ColorPaletteUiState.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/screen/home/HomeMaterial.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/screen/home/HomeMiuix.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/screen/home/HomeScreen.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/screen/home/HomeUiState.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/screen/home/HomeUtils.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/screen/permission/PermissionScreen.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/screen/settings/SettingsUiState.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/util/DeferredContent.kt`
+- `D app/src/main/java/com/example/kernelsustyleuikit/ui/util/HanziToPinyin.java`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/viewmodel/HomeViewModel.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/viewmodel/MainActivityUiState.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/viewmodel/MainActivityViewModel.kt`
+- `M app/src/main/java/com/example/kernelsustyleuikit/ui/viewmodel/SettingsViewModel.kt`
+- `M app/src/main/res/values-zh-rCN/strings.xml`
+- `M app/src/main/res/values/strings.xml`
+- `M build.gradle.kts`
+- `R100 app/src/main/res/raw/logo.svg -> docs/artwork/logo.svg`
+- `M gradle.properties`
+- `M gradle/libs.versions.toml`
+- `M gradle/wrapper/gradle-wrapper.jar`
+- `M gradle/wrapper/gradle-wrapper.properties`
+- `R097 app/src/main/res/values-ar/strings.xml -> translations/values-ar/strings.xml`
+- `R095 app/src/main/res/values-az/strings.xml -> translations/values-az/strings.xml`
+- `R099 app/src/main/res/values-bg/strings.xml -> translations/values-bg/strings.xml`
+- `R094 app/src/main/res/values-bn-rBD/strings.xml -> translations/values-bn-rBD/strings.xml`
+- `R095 app/src/main/res/values-bn/strings.xml -> translations/values-bn/strings.xml`
+- `R095 app/src/main/res/values-bs/strings.xml -> translations/values-bs/strings.xml`
+- `R097 app/src/main/res/values-da/strings.xml -> translations/values-da/strings.xml`
+- `R090 app/src/main/res/values-de/strings.xml -> translations/values-de/strings.xml`
+- `R100 app/src/main/res/values-es/strings.xml -> translations/values-es/strings.xml`
+- `R096 app/src/main/res/values-et/strings.xml -> translations/values-et/strings.xml`
+- `R094 app/src/main/res/values-fa/strings.xml -> translations/values-fa/strings.xml`
+- `R097 app/src/main/res/values-fil/strings.xml -> translations/values-fil/strings.xml`
+- `R099 app/src/main/res/values-fr/strings.xml -> translations/values-fr/strings.xml`
+- `R084 app/src/main/res/values-gl/strings.xml -> translations/values-gl/strings.xml`
+- `R095 app/src/main/res/values-hi/strings.xml -> translations/values-hi/strings.xml`
+- `R098 app/src/main/res/values-hr/strings.xml -> translations/values-hr/strings.xml`
+- `R097 app/src/main/res/values-hu/strings.xml -> translations/values-hu/strings.xml`
+- `R082 app/src/main/res/values-in/strings.xml -> translations/values-in/strings.xml`
+- `R096 app/src/main/res/values-it/strings.xml -> translations/values-it/strings.xml`
+- `R094 app/src/main/res/values-iw/strings.xml -> translations/values-iw/strings.xml`
+- `R099 app/src/main/res/values-ja/strings.xml -> translations/values-ja/strings.xml`
+- `R086 app/src/main/res/values-km/strings.xml -> translations/values-km/strings.xml`
+- `R094 app/src/main/res/values-kn/strings.xml -> translations/values-kn/strings.xml`
+- `R098 app/src/main/res/values-ko/strings.xml -> translations/values-ko/strings.xml`
+- `R094 app/src/main/res/values-lt/strings.xml -> translations/values-lt/strings.xml`
+- `R096 app/src/main/res/values-lv/strings.xml -> translations/values-lv/strings.xml`
+- `R095 app/src/main/res/values-mr/strings.xml -> translations/values-mr/strings.xml`
+- `R093 app/src/main/res/values-ms/strings.xml -> translations/values-ms/strings.xml`
+- `R075 app/src/main/res/values-my/strings.xml -> translations/values-my/strings.xml`
+- `R097 app/src/main/res/values-nl/strings.xml -> translations/values-nl/strings.xml`
+- `R098 app/src/main/res/values-pl/strings.xml -> translations/values-pl/strings.xml`
+- `R097 app/src/main/res/values-pt-rBR/strings.xml -> translations/values-pt-rBR/strings.xml`
+- `R094 app/src/main/res/values-pt/strings.xml -> translations/values-pt/strings.xml`
+- `R096 app/src/main/res/values-ro/strings.xml -> translations/values-ro/strings.xml`
+- `R099 app/src/main/res/values-ru/strings.xml -> translations/values-ru/strings.xml`
+- `R094 app/src/main/res/values-sl/strings.xml -> translations/values-sl/strings.xml`
+- `R090 app/src/main/res/values-sr/strings.xml -> translations/values-sr/strings.xml`
+- `R093 app/src/main/res/values-te/strings.xml -> translations/values-te/strings.xml`
+- `R099 app/src/main/res/values-th/strings.xml -> translations/values-th/strings.xml`
+- `R078 app/src/main/res/values-tl/strings.xml -> translations/values-tl/strings.xml`
+- `R099 app/src/main/res/values-tr/strings.xml -> translations/values-tr/strings.xml`
+- `R099 app/src/main/res/values-uk/strings.xml -> translations/values-uk/strings.xml`
+- `R094 app/src/main/res/values-vi/strings.xml -> translations/values-vi/strings.xml`
